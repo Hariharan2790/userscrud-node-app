@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const mongodb = require("mongodb");
 const mongoClient = mongodb.MongoClient;
-const URL = "mongodb://localhost:27017/";
+const URL = "mongodb+srv://hariharan:viji123@cluster0.mlpu8.mongodb.net?retryWrites=true&w=majority";
 
 let usersList = [];
 app.use(express.json());
